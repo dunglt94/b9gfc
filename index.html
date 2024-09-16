@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>[*Bài tập] Ứng dụng good-fast-cheap</title>
+</head>
+<body>
+<p>
+    <input type="range" id="good" min="1" max="2" value="1"
+           onclick="changeGood()" oninput="changeGood()">
+    <label for="good">Good</label>
+</p>
+<p>
+    <input type="range" id="cheap" min="1" max="2" value="1"
+           onclick="changeCheap()" oninput="changeCheap()">
+    <label for="cheap">Cheap</label>
+</p>
+<p>
+    <input type="range" id="fast" min="1" max="2" value="1"
+           onclick="changeFast()" oninput="changeFast()">
+    <label for="fast">Fast</label>
+
+</p>
+
+<script src="index.js"></script>
+</body>
+</html>
